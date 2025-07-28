@@ -26,12 +26,16 @@ function Footer() {
         </div>
         <div>
           <a
-            href="/KavyaSharma_DS.pdf"
-            download
-            className="inline-block px-4 py-2 border border-white rounded hover:bg-white hover:text-black transition cursor-pointer"
-          >
-            Download Resume
-          </a>
+  href="/KavyaSharma_DS.pdf"
+  download="KavyaSharma_DS.pdf"
+  type="application/pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-block px-4 py-2 border border-white rounded hover:bg-white hover:text-black transition cursor-pointer"
+>
+  Download Resume
+</a>
+
         </div>
         <div className="text-sm">
           <p>All rights reserved,</p>
