@@ -13,7 +13,7 @@ export default function ChatbotModal({ onClose }) {
     setInput("");
 
     try {
-      const res = await fetch("http://localhost:5000/chat", {
+      const res = await fetch("https://portfolio-backend-u00t.onrender.com", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ query: input }),
