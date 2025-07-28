@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Font import */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Sunuwar&display=swap');
+
+/* Fix text size adjustment on mobile browsers */
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
